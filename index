@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>ライフゲーム × 数字</title>
+
+    <!-- 🔹 p5.js本体ライブラリ -->
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.2/lib/p5.min.js"></script>
+
+    <!-- 🔹 自分で書いたJavaScript（sketch.js）を読み込む -->
+    <script src="sketch.js"></script>
+  </head>
+  <body>
+    <h1>ライフゲーム</h1>
+    <input id="digitInput" placeholder="数字を入力" />
+    <input id="stepInput" type="number" placeholder="ステップ数" />
+    <button onclick="startLifeGame()">スタート</button>
+    <button onclick="stopLifeGame()">ストップ</button>
+    <p id="stepDisplay">ステップ数: 0 / 0</p>
+    <div id="downloadLinks"></div>
+  </body>
+</html>
